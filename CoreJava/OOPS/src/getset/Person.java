@@ -11,7 +11,7 @@ public class Person {
 	}
 	public void setNamee(String name)
 	{
-		this.name = name;
+		this.name= name;
 	}
 	public String getAddress()
 	{

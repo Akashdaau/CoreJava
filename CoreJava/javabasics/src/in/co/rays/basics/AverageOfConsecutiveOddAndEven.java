@@ -6,25 +6,24 @@ public class AverageOfConsecutiveOddAndEven
 	public static void main(String[] args)
 	{
 		// TODO Auto-generated method stub
-		int n=11;
+		int n[]= {2,4,91};
 		int evenc=0; int oddc=0; int evensum=0; int oddsum=0;
 		
 		
-		while(n>=0)
+		for(int i=0;i<=n.length;i++)
 		{
-			if(n%2==0)
+			if(n[i]%2==0)
 			{
 				evenc++;
-				evensum=evensum+n;
-				System.out.println(evensum);
+				evensum=evensum+i;
+				//System.out.println(evensum);
 			}
 			else
 			{
 				oddc++;
-				oddsum=oddsum+n;
-				System.out.println(oddsum);
+				oddsum=oddsum+i;
+				//System.out.println(oddsum);
 			}
-			n--;
 		}
 		
 		

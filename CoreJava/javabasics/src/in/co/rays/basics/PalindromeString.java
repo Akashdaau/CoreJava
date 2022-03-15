@@ -2,7 +2,7 @@ package in.co.rays.basics;
 
 public class PalindromeString {
 	String s="akash";
-	String s1="";
+	String s1="null";
 	
 	if(s.length()=0)
 	{

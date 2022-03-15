@@ -5,6 +5,7 @@ public class Circle1 extends Shape1 {
 	
 	public Circle1(double r)
 	{
+		this.radius=r;
 	}
 	public double area()
 	{

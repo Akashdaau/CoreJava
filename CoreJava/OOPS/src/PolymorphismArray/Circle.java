@@ -1,8 +1,8 @@
 package PolymorphismArray;
 
 public class Circle extends ShapeClass{
-	private double radius=3;
-	private double PI=3.14;
+	private double radius;
+	private double PI;
 	
 	public double area()
 	{
